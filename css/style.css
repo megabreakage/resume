@@ -47,7 +47,7 @@ li{
 
 /*left column*/
 .profile{
-  padding: 0;
+  padding: 0 !important;
   clear: both;
   display: inline-block;
 }
@@ -64,6 +64,10 @@ img{
 }
 h2{
   text-align: center;
+}
+.email{
+  font-style: italic;
+  text-decoration: none;
 }
 .details{
   padding: 15px;
