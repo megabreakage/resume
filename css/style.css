@@ -18,14 +18,13 @@ body{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);
 }
 /*for Phones*/
-/*@media only screen and (min-width:768px) {
+@media only screen and (max-width:800px) {
   [class*="col-"]{
     width: 100%;
-    border: 1px dashed blue;
   }
-}*/
+}
 /*for Desktop*/
-/*@media only screen and (max-width:768px) {*/
+@media only screen and (min-width:800px) {
   .col-1{width: 8.33%;}
   .col-2{width: 16.66%;}
   .col-3{width: 23.20%;}
@@ -37,15 +36,15 @@ body{
   .col-9{width: 74.33%;}
   .col-10{width: 83.33%;}
   .col-11{width: 91.66%;}
-  .col-12{width: 99.90%;}
-/*}*/
+  .col-12{width: 100%;}
+}
 li{
   /*list-style-type: none;*/
 }
 
 /*left column*/
 .profile{
-  padding: 0;
+
 }
 img{
   background-size: cover;
@@ -54,16 +53,8 @@ h1{ color: black;}
 .titles{
   color: #666666;
 }
-h2{
-  text-align: center;
-}
-.details{
-  clear: both;
-  display: inline-block;
-  float: left;
-  padding: 15px;
-  width: 100%;
-  /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 8px 16px rgba(0,0,0,0.24);*/
+strong{
+
 }
 img{
   width: 100%;
