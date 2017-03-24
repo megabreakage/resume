@@ -8,7 +8,7 @@ body{
 .main::after{
   content:"";
   clear: both;
-  display: block;
+  display: inline-block;
 }
 [class*="col-"]{
   float: left;
@@ -21,6 +21,12 @@ body{
 @media only screen and (max-width:800px) {
   [class*="col-"]{
     width: 100%;
+<<<<<<< HEAD
+=======
+    float: left;
+    margin: 4px;
+    padding: 7.5px
+>>>>>>> master
   }
 }
 /*for Desktop*/
@@ -44,7 +50,9 @@ li{
 
 /*left column*/
 .profile{
-
+  padding: 0 !important;
+  clear: both;
+  display: inline-block;
 }
 img{
   background-size: cover;
@@ -53,12 +61,22 @@ h1{ color: black;}
 .titles{
   color: #666666;
 }
-strong{
-
-}
 img{
   width: 100%;
   height: auto;
+}
+h2{
+  text-align: center;
+}
+.email{
+  font-style: italic;
+  text-decoration: none;
+}
+.details{
+  padding: 15px;
+  float: left;
+  margin: 0;
+  width: 100%;
 }
 /*right top column*/
 .experience{
@@ -76,3 +94,5 @@ footer{
   text-align: center;
   font-size: 11px;
 }
+
+      /*Kudos breakage!!*/
