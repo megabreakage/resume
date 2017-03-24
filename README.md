@@ -4,7 +4,7 @@ My Resume
 
 **Description**
 
-This is a resume for *Martin Njuguna*. It contains information about his Experice Education, Skills, Hobbies & Intersts and his Attributes.
+This is a resume for *Martin Njuguna*. It contains information about his Experience, Education, Skills, Hobbies & Intersts and his Attributes.
 
 This information is regarded public. Sharing should be minimal if any.
 

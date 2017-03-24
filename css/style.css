@@ -21,12 +21,9 @@ body{
 @media only screen and (max-width:800px) {
   [class*="col-"]{
     width: 100%;
-<<<<<<< HEAD
-=======
     float: left;
     margin: 4px;
     padding: 7.5px
->>>>>>> master
   }
 }
 /*for Desktop*/
